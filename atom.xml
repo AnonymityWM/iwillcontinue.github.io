@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-28T09:18:24.581Z</updated>
+  <updated>2020-02-29T07:05:15.060Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
@@ -16,12 +16,24 @@
     <link href="http://yoursite.com/2020/02/28/%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2/"/>
     <id>http://yoursite.com/2020/02/28/%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2/</id>
     <published>2020-02-28T09:18:24.000Z</published>
-    <updated>2020-02-28T09:18:24.581Z</updated>
+    <updated>2020-02-29T07:05:15.060Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Paper-Reading"><a href="#Paper-Reading" class="headerlink" title="Paper Reading"></a>Paper Reading</h1><ol><li>嗯<div class="row">    <embed src="./图像检索/20200217.pdf" width="100%" height="550" type="application/pdf"></div></li></ol>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;h1 id=&quot;Paper-Reading&quot;&gt;&lt;a href=&quot;#Paper-Reading&quot; class=&quot;headerlink&quot; title=&quot;Paper Reading&quot;&gt;&lt;/a&gt;Paper Reading&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;嗯
+
+	&lt;div class=&quot;row&quot;
+      
+    
     </summary>
     
+    
+      <category term="图像检索" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2/"/>
     
     
   </entry>
