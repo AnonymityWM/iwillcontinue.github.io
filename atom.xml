@@ -6,19 +6,19 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-05T14:28:33.027Z</updated>
+  <updated>2020-03-05T14:53:59.462Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>图像检索</title>
+    <title>PDF的展示</title>
     <link href="http://yoursite.com/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/"/>
     <id>http://yoursite.com/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/</id>
     <published>2020-02-28T09:18:24.000Z</published>
-    <updated>2020-03-05T14:28:33.027Z</updated>
+    <updated>2020-03-05T14:53:59.462Z</updated>
     
-    <content type="html"><![CDATA[<ol><li><font color="red"><b>在博客中直接显示pdf</b></font></li></ol><ul><li><p>启动git-bash，在hexo目录下执行安装命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-pdf</span><br></pre></td></tr></table></figure></li><li><p>外部文章链接：在md文件中添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf https:&#x2F;&#x2F;arxiv.xilesou.top&#x2F;pdf&#x2F;1806.03198.pdf %&#125;</span><br></pre></td></tr></table></figure><p>​        结果：<br><img src="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0.jpg" alt> </p></li><li><p>本地pdf显示：在博客source_posts\，文件夹下创建一个文章如test.md，同时需要再创建一个同名的test文件夹，放我们要上传的<code>pdf</code>文章。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在md文件中添加：&#123;% pdf  test.pdf %&#125;</span><br></pre></td></tr></table></figure><p>​        <code>hexo g</code>生成；<code>hexo d</code>发布后，结果：<br><img src="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E6%9C%AC%E5%9C%B0%E6%96%87%E7%AB%A0.jpg" alt> </p></li></ul><ol start="2"><li><font color="red"><b>博客中链接ppt（1）</b></font></li></ol><ol start="3"><li><font color="red"><b>博客中链接ppt（2）</b></font></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><font color="red"><b>在博客中直接显示pdf</b></font></li></ol><ul><li><p>启动git-bash，在hexo目录下执行安装命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-pdf</span><br></pre></td></tr></table></figure></li><li><p>外部文章链接：在md文件中添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf https:&#x2F;&#x2F;arxiv.xilesou.top&#x2F;pdf&#x2F;1806.03198.pdf %&#125;</span><br></pre></td></tr></table></figure><p>​        结果：<br><img src="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0.jpg" alt> </p></li><li><p>本地pdf显示：在博客source_posts\，文件夹下创建一个文章如test.md，同时需要再创建一个同名的test文件夹，放我们要上传的pdf文章。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在md文件中添加：&#123;% pdf  test.pdf %&#125;</span><br></pre></td></tr></table></figure><p>​        hexo g生成；hexo d发布后，结果：<br><img src="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E6%9C%AC%E5%9C%B0%E6%96%87%E7%AB%A0.jpg" alt>{:height=”100” width=”100”} </p></li></ul><ol start="2"><li><font color="red"><b>博客中链接ppt（1）</b></font><br>作者并不想直接显示pdf，而是在点击链接后跳转到pdf，第一次尝试：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在md文件中添加：[slides.pdf](https:&#x2F;&#x2F;github.com&#x2F;iwillcontinue&#x2F;iwillcontinue.github.io&#x2F;blob&#x2F;master&#x2F;2020&#x2F;02&#x2F;28&#x2F;跨模态检索&#x2F;面向图像与文本的跨模态检索.pdf)</span><br></pre></td></tr></table></figure>​        结果：<br><img src="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E9%93%BE%E6%8E%A51.jpg" alt>{:height=”100” width=”100”} </li></ol><ol start="3"><li><font color="red"><b>博客中链接ppt（2）</b></font></li></ol>]]></content>
     
     <summary type="html">
     
@@ -42,50 +42,22 @@
   
   <entry>
     <title>图像检索</title>
-    <link href="http://yoursite.com/2020/02/28/retrival/"/>
-    <id>http://yoursite.com/2020/02/28/retrival/</id>
-    <published>2020-02-28T09:18:24.000Z</published>
-    <updated>2020-03-05T14:18:37.944Z</updated>
-    
-    <content type="html"><![CDATA[<center><font size="42">Paper Reading</font></center><p>图像：<br><img src="/2020/02/28/retrival/%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0.png" alt> </p><p>本地文章上传：</p><div class="row">    <embed src="test.pdf" width="100%" height="550" type="application/pdf"></div> <p>pdf显示2：</p><table><thead><tr><th align="center"><font color="green"><b>日期</b></font></th><th align="center"><font color="green"><b>题目</b></font></th><th align="center"><font color="green"><b>文档</b></font></th><th align="center"><font color="green"><b>备注</b></font></th></tr></thead><tbody><tr><td align="center">2020-02-17</td><td align="center">面向图像与文本的跨模态检索</td><td align="center"><a href="https://github.com/iwillcontinue/iwillcontinue.github.io/blob/master/2020/02/28/跨模态检索/面向图像与文本的跨模态检索.pdf" target="_blank" rel="noopener"><font color="blue">slides.pdf</font></a></td><td align="center">-</td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;center&gt;&lt;font size=&quot;42&quot;&gt;Paper Reading&lt;/font&gt;&lt;/center&gt;
-
-&lt;p&gt;图像：&lt;br&gt;&lt;img src=&quot;/2020/02/28/retrival/%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0.png&quot; al
-      
-    
-    </summary>
-    
-    
-      <category term="图像检索" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>图像检索</title>
     <link href="http://yoursite.com/2020/02/28/%E8%B7%A8%E6%A8%A1%E6%80%81%E6%A3%80%E7%B4%A2/"/>
     <id>http://yoursite.com/2020/02/28/%E8%B7%A8%E6%A8%A1%E6%80%81%E6%A3%80%E7%B4%A2/</id>
     <published>2020-02-28T09:18:24.000Z</published>
-    <updated>2020-03-05T09:19:02.955Z</updated>
+    <updated>2020-03-05T14:56:12.549Z</updated>
     
-    <content type="html"><![CDATA[<center><font size="42">Paper Reading</font></center><p>外部文章网页链接：</p><div class="row">    <embed src="https://arxiv.xilesou.top/pdf/1806.03198.pdf" width="100%" height="550" type="application/pdf"></div><p>本地文章上传：</p><br><p>示例：<div class="row">    <embed src="test.pdf" width="100%" height="550" type="application/pdf"></div> </p><br>pdf显示2：<table><thead><tr><th align="center"><font color="green"><b>日期</b></font></th><th align="center"><font color="green"><b>题目</b></font></th><th align="center"><font color="green"><b>文档</b></font></th><th align="center"><font color="green"><b>备注</b></font></th></tr></thead><tbody><tr><td align="center">2020-02-17</td><td align="center">面向图像与文本的跨模态检索</td><td align="center"><a href="https://github.com/iwillcontinue/iwillcontinue.github.io/blob/master/2020/02/28/跨模态检索/面向图像与文本的跨模态检索.pdf" target="_blank" rel="noopener"><font color="blue">slides.pdf</font></a></td><td align="center">-</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th align="center"><font color="green"><b>日期</b></font></th><th align="center"><font color="green"><b>题目</b></font></th><th align="center"><font color="green"><b>文档</b></font></th><th align="center"><font color="green"><b>备注</b></font></th></tr></thead><tbody><tr><td align="center">2020-02-17</td><td align="center">面向图像与文本的跨模态检索</td><td align="center"><a href="https://github.com/iwillcontinue/iwillcontinue.github.io/blob/master/2020/02/28/跨模态检索/面向图像与文本的跨模态检索.pdf" target="_blank" rel="noopener"><font color="blue">slides.pdf</font></a></td><td align="center">-</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;center&gt;&lt;font size=&quot;42&quot;&gt;Paper Reading&lt;/font&gt;&lt;/center&gt;
-
-&lt;p&gt;外部文章网页链接：&lt;/p&gt;
-
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;https://arxiv.xilesou.top/pdf/1
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;font color=&quot;green&quot;&gt;&lt;b&gt;日期&lt;/b&gt;&lt;/font&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;font color=&quot;green&quot;&gt;&lt;b&gt;题目&lt;/b&gt;&lt;/font&gt;&lt;/t
       
     
     </summary>
