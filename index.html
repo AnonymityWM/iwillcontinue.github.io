@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/05/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -251,7 +251,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/03/05/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/" itemprop="url">PDF的展示</a></h1>
+                <a class="post-title-link" href="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/" itemprop="url">PDF的展示</a></h1>
         
 
         <div class="post-meta">
@@ -263,8 +263,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-05T09:46:14+08:00">
-                2020-03-05
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-28T17:18:24+08:00">
+                2020-02-28
               </time>
             
 
@@ -273,6 +273,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -303,11 +325,7 @@
       
         
           
-            <p>title: PDF的展示<br>date: 2020-02-28 17:18:24<br>categories:</p>
-<ul>
-<li>hexo</li>
-</ul>
-<ol>
+            <ol>
 <li><font color="red"><b>在博客中直接显示pdf</b></font></li>
 </ol>
 <ul>
@@ -315,20 +333,31 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-pdf</span><br></pre></td></tr></table></figure></li>
 <li><p>外部文章链接：在md文件中添加</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf https:&#x2F;&#x2F;arxiv.xilesou.top&#x2F;pdf&#x2F;1806.03198.pdf %&#125;</span><br></pre></td></tr></table></figure>
-<p>​        结果：<br><img src="/2020/03/05/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0.jpg" alt> </p>
+<p>​        结果：</p>
+<div align="center">
+![](PDF的展示/外部文章.jpg) 
+</div>
 </li>
-<li><p>本地pdf显示：在博客source_posts\，文件夹下创建一个文章如test.md，同时需要再创建一个同名的test文件夹，放我们要上传的pdf文章。</p>
+<li><p>本地pdf显示：在博客<code>source\_posts\</code>，文件夹下创建一个文章如test.md，同时需要再创建一个同名的test文件夹，放我们要上传的pdf文章。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在md文件中添加：&#123;% pdf  test.pdf %&#125;</span><br></pre></td></tr></table></figure>
-<p>​        hexo g生成；hexo d发布后，结果：<br><img src="/2020/03/05/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E6%9C%AC%E5%9C%B0%E6%96%87%E7%AB%A0.jpg" alt>{:height=”100” width=”100”} </p>
+<p>​        hexo g生成；hexo d发布后，结果：</p>
+<div align="center">
+![](PDF的展示/本地文章.jpg)
+</div>
 </li>
 </ul>
 <ol start="2">
 <li><font color="red"><b>博客中链接ppt（1）</b></font><br>作者并不想直接显示pdf，而是在点击链接后跳转到pdf，第一次尝试：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在md文件中添加：[slides.pdf](https:&#x2F;&#x2F;github.com&#x2F;iwillcontinue&#x2F;iwillcontinue.github.io&#x2F;blob&#x2F;master&#x2F;2020&#x2F;02&#x2F;28&#x2F;跨模态检索&#x2F;面向图像与文本的跨模态检索.pdf)</span><br></pre></td></tr></table></figure>
-​        结果：<br><img src="/2020/03/05/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E9%93%BE%E6%8E%A51.jpg" alt> </li>
+​        结果：</li>
 </ol>
-<p><img src="/2020/03/05/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E9%93%BE%E6%8E%A51_1.jpg" alt> </p>
+<div align="center">
+![](PDF的展示/链接1.jpg) 
+
+<p><img src="/2020/02/28/PDF%E7%9A%84%E5%B1%95%E7%A4%BA/%E9%93%BE%E6%8E%A51_1.jpg" alt> </p>
+</div>
+
 <ol start="3">
-<li><font color="red"><b>博客中链接ppt（2）</b></font></li>
+<li><font color="red"><b>博客中链接ppt（2）</b></font><br>上面的效果已经基本达到要求，但是作者想要一个点进去整个都是pdf内容的界面。第二次尝试：<br>尝试失败，没有找到hexo结合pdf.js的文章，pdf.js在项目中使用可达到所述效果。</li>
 </ol>
 
           
@@ -579,7 +608,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">categories</span>
                 
               </div>
