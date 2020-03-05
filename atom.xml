@@ -43,18 +43,30 @@
     <link href="http://yoursite.com/2020/02/28/%E8%B7%A8%E6%A8%A1%E6%80%81%E6%A3%80%E7%B4%A2/"/>
     <id>http://yoursite.com/2020/02/28/%E8%B7%A8%E6%A8%A1%E6%80%81%E6%A3%80%E7%B4%A2/</id>
     <published>2020-02-28T09:18:24.000Z</published>
-    <updated>2020-03-05T03:20:41.307Z</updated>
+    <updated>2020-03-05T03:23:08.957Z</updated>
     
-    <content type="html"><![CDATA[<center><font size="42">Paper Reading</font></center>| 日期 | 题目 | 文档 | 备注 ||:-----:|:------------:|:-----:|:-----:||20200217|面向图像与文本的跨模态检索|[<font color="red">slides.pdf</font>](https://github.com/iwillcontinue/iwillcontinue.github.io/blob/master/2020/02/28/跨模态检索/面向图像与文本的跨模态检索.pdf)|-|]]></content>
+    <content type="html"><![CDATA[<center><font size="42">Paper Reading</font></center><table><thead><tr><th align="center">日期</th><th align="center">题目</th><th align="center">文档</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">20200217</td><td align="center">面向图像与文本的跨模态检索</td><td align="center"><a href="https://github.com/iwillcontinue/iwillcontinue.github.io/blob/master/2020/02/28/跨模态检索/面向图像与文本的跨模态检索.pdf" target="_blank" rel="noopener"><font color="red">slides.pdf</font></a></td><td align="center">-</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
       
       
         &lt;center&gt;&lt;font size=&quot;42&quot;&gt;Paper Reading&lt;/font&gt;&lt;/center&gt;
-| 日期 | 题目 | 文档 | 备注 |
-|:-----:|:------------:|:-----:|:-----:|
-|20200217|面向图像与文本的跨模态检索
+
+
+
+
+
+
+
+
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;日期&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;题目&lt;/th&gt;
+&lt;t
       
     
     </summary>
